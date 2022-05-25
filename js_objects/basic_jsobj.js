@@ -32,3 +32,17 @@ console.info('Iterating using for in')
 for(let key in student){
     console.log(student.key)
 }
+
+//JavaScript Methods and this Keyword
+let person = {
+    name:'srikanth',
+    walk:function(){
+        console.log(this.name + ' walking')
+    }
+}
+
+person.walk();
+//Adding properties to existing object
+person.age = 25
+
+console.log(person)
