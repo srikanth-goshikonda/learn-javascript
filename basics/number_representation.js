@@ -39,3 +39,8 @@ let a9 = 505050500000000001;
 console.log(a9) //50505050000000000 we loose precision here 
 a9= 505050500000000001n
 console.log(a9) //505050500000000001
+
+let a10 = '25641'
+let a11 = '15424.65'
+console.log(a10+a11) //String concatination
+console.log(parseInt(a10) + parseFloat(a11)) // addition
