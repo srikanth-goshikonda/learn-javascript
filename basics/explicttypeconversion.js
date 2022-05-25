@@ -105,3 +105,6 @@ console.log(result); // true
 
 result = Boolean(' ');
 console.log(result); // true
+
+let a=1 + '10';
+console.log(a)
