@@ -38,3 +38,7 @@ for (let i = 1;i <= n ; i++)
     sum += i;  // sum = sum + i
 console.log('sum:', sum); //55
 
+//using for of
+let num = [2,5,8,4,1]
+for(let i of num)
+console.log(i)
