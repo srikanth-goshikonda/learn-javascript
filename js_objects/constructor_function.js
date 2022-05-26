@@ -13,3 +13,12 @@ const person = new Person('Srikanth',25);
 console.log(person);
 person.walk()
 
+
+//Adding Properties And Methods in an Object
+person.branch='ECE'
+person.run=function(){
+    console.log('Running');
+}
+person.run()
+console.log(person);
+
